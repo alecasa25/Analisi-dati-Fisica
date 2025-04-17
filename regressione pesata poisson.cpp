@@ -19,7 +19,7 @@ int main() {
     //operazioni dal file e presa dati
 	cout << "Inserire il nome del file di input: ";
     cin >> filename;
-    ifstream fin(filename);
+    ifstream fin(filename);ciao
     if(!fin){
     	cout<<"Il file non è stato caricato correttamente"<<endl;
     	return -1;
